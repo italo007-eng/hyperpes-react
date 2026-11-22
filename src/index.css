@@ -1,0 +1,68 @@
+/* ---------- Paleta de cores do Hyperpes ---------- */
+:root {
+    --cor-principal: #EE7622;
+    --cor-clara: #F7B98D;
+    --cor-media: #EE7622;
+    --cor-escura: #7A3B0E;
+}
+
+/* Fundo único para todas as páginas (antes era um style inline em cada HTML) */
+body {
+    background-color: rgba(230, 182, 121, 0.432);
+}
+
+h1 {
+    color: var(--cor-principal);
+}
+
+/* Navbar e rodapé usam a paleta */
+.barra-principal {
+    background-color: var(--cor-principal);
+}
+
+.rodape {
+    background-color: var(--cor-escura);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Página da paleta de cores */
+.cor-amostra {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.cor-principal { background-color: var(--cor-principal); }
+.cor-clara { background-color: var(--cor-clara); }
+.cor-media { background-color: var(--cor-media); }
+.cor-escura { background-color: var(--cor-escura); }
+
+/* Títulos coloridos do sandbox */
+.audio { color: rgb(150, 238, 18); }
+.video { color: red; }
+
+/* Link secundário (voltar) */
+.segundario {
+    text-decoration: none;
+    color: rgb(85, 240, 150);
+}
+
+.segundario:hover {
+    color: rgb(47, 125, 241);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    max-width: 100%;
+}
